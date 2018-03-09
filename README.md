@@ -1,4 +1,4 @@
-snippets for Visual Studio Code. 
+snippets for Visual Studio Code. <br>
 How to install: 
 File > Preferences > User snippets > Lua 
 Put snippets from github here. 
