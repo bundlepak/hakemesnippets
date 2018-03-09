@@ -292,7 +292,7 @@
 		"Heroes_InRadius": {
 			"prefix": "InRadius",
 			"body": [
-			  "Heroes.InRadius(${1:vec},${2:radius},${3:teamNum},Enum.TeamType.TEAM_${4:ENEMY/FRIEND/BOTH})",
+			  "Heroes.InRadius(${1:vec},${2:radius},${3:teamNum},${4:Enum.TeamType.TEAM_ENEMY/FRIEND/BOTH})",
 			],
 			"description": "Return: A table containing the heroes within the radius of vec"
 		},
@@ -339,7 +339,7 @@
 		"NPCs_InRadius": {
 			"prefix": "InRadius",
 			"body": [
-			  "NPCs.InRadius(${1:vec},${2:radius},${3:teamNum},Enum.TeamType.TEAM_${4:ENEMY/FRIEND/BOTH})",
+			  "NPCs.InRadius(${1:vec},${2:radius},${3:teamNum},${4:Enum.TeamType.TEAM_ENEMY/FRIEND/BOTH})",
 			],
 			"description": "Return: A table containing the NPCs within the radius of vec"
 		},
@@ -419,7 +419,7 @@
 		"Trees_InRadius": {
 			"prefix": "InRadius",
 			"body": [
-			  "Trees.InRadius(${1:vec},${2:radius},${3:teamNum},Enum.TeamType.TEAM_${4:ENEMY/FRIEND/BOTH})",
+			  "Trees.InRadius(${1:vec},${2:radius},${3:teamNum},${4:Enum.TeamType.TEAM_ENEMY/FRIEND/BOTH})",
 			],
 			"description": "Return: A table containing the Trees within the radius of vec"
 		},
@@ -1623,7 +1623,7 @@
 		"Player_PrepareUnitOrders": {
 			"prefix": "PrepareUnitOrders",
 			"body": [
-			  "Player.PrepareUnitOrders(${1:player}, Enum.UnitOrder.DOTA_UNIT_ORDER_${2:order}, ${3:target}, ${4:vector}, ${5:ability}, Enum.PlayerOrderIssuer.DOTA_ORDER_ISSUER_${6:orderIssuer}, ${7:npc}, ${8:queue}, ${9:showEffects})",
+			  "Player.PrepareUnitOrders(${1:player}, Enum.UnitOrder.DOTA_UNIT_ORDER_${2:order}, ${3:target}, ${4:vector}, ${5:ability}, ${6:Enum.PlayerOrderIssuer.DOTA_ORDER_ISSUER_orderIssuer}, ${7:npc}, ${8:queue}, ${9:showEffects})",
 			],
 			
 		},
@@ -1812,7 +1812,7 @@
 		"NetChannel_GetAvgLatency": {
 			"prefix": "GetAvgLatency",
 			"body": [
-			  "NetChannel.GetAvgLatency(Enum.Flow.${1:flow})",
+			  "NetChannel.GetAvgLatency(${1:Enum.Flow.})",
 			],
 			"description": "Return: A number containing the average latency in seconds"
 		},
@@ -1833,14 +1833,14 @@
 		"Input_GetNearestUnitToCursor": {
 			"prefix": "GetNearestUnitToCursor",
 			"body": [
-			  "Input.GetNearestUnitToCursor(${1:teamNum}, Enum.TeamType.TEAM_${2:ENEMY/FRIEND/BOTH})",
+			  "Input.GetNearestUnitToCursor(${1:teamNum}, ${2:Enum.TeamType.TEAM_ENEMY/FRIEND/BOTH})",
 			],
 			
 		},
 		"Input_GetNearestHeroToCursor": {
 			"prefix": "GetNearestHeroToCursor",
 			"body": [
-			  "Input.GetNearestHeroToCursor(${1:teamNum}, Enum.TeamType.TEAM_${2:ENEMY/FRIEND/BOTH})",
+			  "Input.GetNearestHeroToCursor(${1:teamNum}, ${2:Enum.TeamType.TEAM_ENEMY/FRIEND/BOTH})",
 			],
 			
 		},
@@ -1903,7 +1903,7 @@
 		"Menu_AddKeyOption": {
 			"prefix": "AddKeyOption",
 			"body": [
-			  "Menu.AddOption(${1:whereAt}, ${2:name}, Enum.ButtonCode.${3:defaultButton})",
+			  "Menu.AddOption(${1:whereAt}, ${2:name}, ${3:Enum.ButtonCode.defaultButton})",
 			],
 			
 		},
@@ -4452,6 +4452,65 @@
 "npc_dota_hero_wisp":{"prefix":"npc_dota_hero_wisp","body":["\"npc_dota_hero_wisp\"",],}
 "npc_dota_hero_witch_doctor":{"prefix":"npc_dota_hero_witch_doctor","body":["\"npc_dota_hero_witch_doctor\"",],}
 "npc_dota_hero_zuus":{"prefix":"npc_dota_hero_zuus","body":["\"npc_dota_hero_zuus\"",],}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+
+		
+		
+
+		
+		
+
+		
+
+
 }
 
 
