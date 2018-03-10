@@ -47,6 +47,62 @@
 			],
 			"description": "This callback gets called whenever an animation starts."
 		},
+		"Animation_Unit": {
+			"prefix": "animation.unit",
+			"body": [
+			  "animation.unit",
+			],
+			"description": ""
+		},
+		"Animation_sequenceVariant": {
+			"prefix": "animation.sequenceVariant",
+			"body": [
+			  "animation.sequenceVariant",
+			],
+			"description": ""
+		},
+		"Animation_playbackRate": {
+			"prefix": "animation.playbackRate",
+			"body": [
+			  "animation.playbackRate",
+			],
+			"description": ""
+		},
+		"Animation_castpoint": {
+			"prefix": "animation.castpoint",
+			"body": [
+			  "animation.castpoint",
+			],
+			"description": ""
+		},
+		"Animation_type": {
+			"prefix": "animation.type",
+			"body": [
+			  "animation.type",
+			],
+			"description": ""
+		},
+		"Animation_activity": {
+			"prefix": "animation.activity",
+			"body": [
+			  "animation.activity",
+			],
+			"description": ""
+		},
+		"Animation_sequence": {
+			"prefix": "animation.sequence",
+			"body": [
+			  "animation.sequence",
+			],
+			"description": ""
+		},
+		"Animation_sequenceName": {
+			"prefix": "animation.sequenceName",
+			"body": [
+			  "animation.sequenceName",
+			],
+			"description": ""
+		},
 		"Callback_OnUnitAnimationEnd": {
 			"prefix": "OnUnitAnimationEnd",
 			"body": [
@@ -58,6 +114,13 @@
 			  "end"
 			],
 			"description": "This callback gets called whenever an animation ends."
+		},
+		"Animation_snap": {
+			"prefix": "animation.snap",
+			"body": [
+			  "animation.snap",
+			],
+			"description": ""
 		},
 		"Callback_OnProjectile": {
 			"prefix": "OnProjectile",
@@ -71,6 +134,97 @@
 			],
 			
 		},
+		"projectile_source": {
+			"prefix": "projectile.source",
+			"body": [
+			  "projectile.source",
+			],
+			"description": ""
+		},
+		"projectile_target": {
+			"prefix": "projectile.target",
+			"body": [
+			  "projectile.target",
+			],
+			"description": ""
+		},
+		"projectile_moveSpeed": {
+			"prefix": "projectile.moveSpeed",
+			"body": [
+			  "projectile.moveSpeed",
+			],
+			"description": ""
+		},
+		"projectile_sourceAttachment": {
+			"prefix": "projectile.sourceAttachment",
+			"body": [
+			  "projectile.sourceAttachment",
+			],
+			"description": ""
+		},
+		"projectile_particleSystemHandle": {
+			"prefix": "projectile.particleSystemHandle",
+			"body": [
+			  "projectile.particleSystemHandle",
+			],
+			"description": ""
+		},
+		"projectile_dodgeable": {
+			"prefix": "projectile.dodgeable",
+			"body": [
+			  "projectile.dodgeable",
+			],
+			"description": ""
+		},
+		"projectile_isAttack": {
+			"prefix": "projectile.isAttack",
+			"body": [
+			  "projectile.isAttack",
+			],
+			"description": ""
+		},
+		"projectile_isEvaded": {
+			"prefix": "projectile.isEvaded",
+			"body": [
+			  "projectile.isEvaded",
+			],
+			"description": ""
+		},
+		"projectile_expireTime": {
+			"prefix": "projectile.expireTime",
+			"body": [
+			  "projectile.expireTime",
+			],
+			"description": ""
+		},
+		"projectile_maxImpactTime": {
+			"prefix": "projectile.maxImpactTime",
+			"body": [
+			  "projectile.maxImpactTime",
+			],
+			"description": ""
+		},
+		"projectile_colorGemColor": {
+			"prefix": "projectile.colorGemColor",
+			"body": [
+			  "projectile.colorGemColor",
+			],
+			"description": ""
+		},
+		"projectile_fullName": {
+			"prefix": "projectile.fullName",
+			"body": [
+			  "projectile.fullName",
+			],
+			"description": ""
+		},
+		"projectile_name": {
+			"prefix": "projectile.name",
+			"body": [
+			  "projectile.name",
+			],
+			"description": ""
+		},
 		"Callback_OnLinearProjectileCreate": {
 			"prefix": "OnLinearProjectileCreate",
 			"body": [
@@ -83,6 +237,56 @@
 			],
 			
 		},
+		"projectile_origin": {
+			"prefix": "projectile.origin",
+			"body": [
+			  "projectile.origin",
+			],
+			"description": ""
+		},
+		"projectile_velocity": {
+			"prefix": "projectile.velocity",
+			"body": [
+			  "projectile.velocity",
+			],
+			"description": ""
+		},
+		"projectile_particleIndex": {
+			"prefix": "projectile.particleIndex",
+			"body": [
+			  "projectile.particleIndex",
+			],
+			"description": ""
+		},
+		"projectile_handle": {
+			"prefix": "projectile.handle",
+			"body": [
+			  "projectile.handle",
+			],
+			"description": ""
+		},
+		"projectile_acceleration": {
+			"prefix": "projectile.acceleration",
+			"body": [
+			  "projectile.acceleration",
+			],
+			"description": ""
+		},
+		"projectile_latency": {
+			"prefix": "projectile.latency",
+			"body": [
+			  "projectile.latency",
+			],
+			"description": ""
+		},
+		"projectile_maxSpeed": {
+			"prefix": "projectile.maxSpeed",
+			"body": [
+			  "projectile.maxSpeed",
+			],
+			"description": ""
+		},
+
 		"Callback_OnLinearProjectileDestroy": {
 			"prefix": "OnLinearProjectileDestroy",
 			"body": [
@@ -94,6 +298,55 @@
 			  "end"
 			],
 			
+		},
+		"particle_index": {
+			"prefix": "particle.index",
+			"body": [
+			  "particle.index",
+			],
+			"description": ""
+		},
+		"particle_entity": {
+			"prefix": "particle.entity",
+			"body": [
+			  "particle.entity",
+			],
+			"description": ""
+		},
+		"particle_particleNameIndex": {
+			"prefix": "particle.particleNameIndex",
+			"body": [
+			  "particle.particleNameIndex",
+			],
+			"description": ""
+		},
+		"particle_attachType": {
+			"prefix": "particle.attachType",
+			"body": [
+			  "particle.attachType",
+			],
+			"description": ""
+		},
+		"particle_entityForModifiers": {
+			"prefix": "particle.entityForModifiers",
+			"body": [
+			  "particle.entityForModifiers",
+			],
+			"description": ""
+		},
+		"particle_fullName": {
+			"prefix": "particle.fullName",
+			"body": [
+			  "particle.fullName",
+			],
+			"description": ""
+		},
+		"particle_name": {
+			"prefix": "particle.name",
+			"body": [
+			  "particle.name",
+			],
+			"description": ""
 		},
 		"Callback_OnParticleCreate": {
 			"prefix": "OnParticleCreate",
@@ -107,6 +360,21 @@
 			],
 			
 		},
+		"particle_position": {
+			"prefix": "particle.position",
+			"body": [
+			  "particle.position",
+			],
+			"description": ""
+		},
+		"particle_controlPoint": {
+			"prefix": "particle.controlPoint",
+			"body": [
+			  "particle.controlPoint",
+			],
+			"description": ""
+		},
+
 		"Callback_OnParticleUpdate": {
 			"prefix": "OnParticleUpdate",
 			"body": [
@@ -119,6 +387,20 @@
 			],
 			
 		},
+		"particle_attachment": {
+			"prefix": "particle.attachment",
+			"body": [
+			  "particle.attachment",
+			],
+			"description": ""
+		},
+		"particle_includeWearables": {
+			"prefix": "particle.includeWearables",
+			"body": [
+			  "particle.includeWearables",
+			],
+			"description": ""
+		},
 		"Callback_OnParticleUpdateEntity": {
 			"prefix": "OnParticleUpdateEntity",
 			"body": [
@@ -130,6 +412,13 @@
 			  "end"
 			],
 			
+		},
+		"particle_destroyImmediately": {
+			"prefix": "particle.destroyImmediately",
+			"body": [
+			  "particle.destroyImmediately",
+			],
+			"description": ""
 		},
 		"Callback_OnEntityCreate": {
 			"prefix": "OnEntityCreate",
@@ -166,6 +455,69 @@
 			  "end"
 			],
 			"description": "This callback should return true by default and only return false when you specifically do not want the orders to go through."
+		},
+		"orders_player": {
+			"prefix": "orders.player",
+			"body": [
+			  "orders.player",
+			],
+			"description": ""
+		},
+		"orders_order": {
+			"prefix": "orders.order",
+			"body": [
+			  "orders.order",
+			],
+			"description": ""
+		},
+		"orders_target": {
+			"prefix": "orders.target",
+			"body": [
+			  "orders.target",
+			],
+			"description": ""
+		},
+		"orders_position": {
+			"prefix": "orders.position",
+			"body": [
+			  "orders.position",
+			],
+			"description": ""
+		},
+		"orders_ability": {
+			"prefix": "orders.ability",
+			"body": [
+			  "orders.ability",
+			],
+			"description": ""
+		},
+		"orders_orderIssuer": {
+			"prefix": "orders.orderIssuer",
+			"body": [
+			  "orders.orderIssuer",
+			],
+			"description": ""
+		},
+		"orders_npc": {
+			"prefix": "orders.npc",
+			"body": [
+			  "orders.npc",
+			],
+			"description": ""
+		},
+		"orders_queue": {
+			"prefix": "orders.queue",
+			"body": [
+			  "orders.queue",
+			],
+			"description": ""
+		},
+		"orders_showEffects": {
+			"prefix": "orders.showEffects",
+			"body": [
+			  "orders.showEffects",
+			],
+			"description": ""
 		},
 		"Callback_OnMenuOptionChange": {
 			"prefix": "OnMenuOptionChange",
@@ -524,28 +876,28 @@
 		"Ability_CastNoTarget": {
 			"prefix": "CastNoTarget",
 			"body": [
-			  "Ability.CastNoTarget(${1:ability}, ${2:queue})",
+			  "Ability.CastNoTarget(${1:ability})",
 			],
 			
 		},
 		"Ability_CastPosition": {
 			"prefix": "CastPosition",
 			"body": [
-			  "Ability.CastPosition(${1:ability}, ${2:vec}, ${3:queue})",
+			  "Ability.CastPosition(${1:ability}, ${2:vec})",
 			],
 			
 		},
 		"Ability_CastTarget": {
 			"prefix": "CastTarget",
 			"body": [
-			  "Ability.CastTarget(${1:ability}, ${2:target}, ${3:queue})",
+			  "Ability.CastTarget(${1:ability}, ${2:target})",
 			],
 			
 		},
 		"Ability_Toggle": {
 			"prefix": "Toggle",
 			"body": [
-			  "Ability.Toggle(${1:ability}, ${2:queue})",
+			  "Ability.Toggle(${1:ability})",
 			],
 			
 		},
@@ -1627,6 +1979,7 @@
 			],
 			
 		},
+
 		"Player_ExecuteLastOrder": {
 			"prefix": "ExecuteLastOrder",
 			"body": [
